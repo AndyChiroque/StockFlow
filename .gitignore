@@ -1,0 +1,50 @@
+# Credenciales
+.env
+.env.backup
+.env.production
+/auth.json
+
+# Dependencias
+/vendor
+/node_modules
+
+# Build de frontend
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+
+# Base de datos (se recrea con migrate --seed)
+/database/database.sqlite
+
+# Archivos generados en runtime
+/storage/framework
+/storage/logs
+/storage/*.key
+/storage/pail
+
+# Herramientas de IA (locales)
+/.agents
+opencode.json
+AGENTS.md
+
+# IDE y sistema operativo
+.DS_Store
+Thumbs.db
+*.log
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Tests y herramientas
+.phpunit.result.cache
+/.phpunit.cache
+.phpactor.json
+
+# Misc
+_ide_helper.php
+Homestead.json
+Homestead.yaml
