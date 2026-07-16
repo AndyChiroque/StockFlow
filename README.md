@@ -41,7 +41,7 @@ Gestor de productos con roles de usuario. Proyecto de aprendizaje **Laravel 13 +
 
 ```bash
 # 1. Clonar
-git clone https://github.com/tuusuario/stockflow.git
+git clone https://github.com/AndyChiroque/StockFlow.git
 cd stockflow
 
 # 2. Dependencias PHP
